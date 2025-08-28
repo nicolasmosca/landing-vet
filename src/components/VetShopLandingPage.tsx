@@ -27,7 +27,9 @@ const VetShopLandingPage: React.FC = () => {
 
       <section style={styles.ctaSection}>
         <h2 style={styles.sectionTitle}>Get in Touch</h2>
-        <p style={styles.paragraph}>Call us at <a href="tel:+1234567890" style={styles.link}>+1 (234) 567-890</a> or visit our shop to discover everything we offer for your furry friends.</p>
+        <p style={styles.paragraph}>
+          Call us at <a href="tel:+1234567890" style={styles.link}>+1 (234) 567-890</a> or visit our shop to discover everything we offer for your furry friends.
+        </p>
       </section>
     </main>
   );
